@@ -1,0 +1,51 @@
+ GLOBAL:   Nume: Program
+      var:       TIP: A,   NUME: oba
+      var:       TIP: A,   NUME: ob
+      var:       TIP: int,   NUME: x1,   VALUE: 60
+      var:       TIP: int,   NUME: ix,   VALUE: 30
+      var:       TIP: int,   NUME: iy,   VALUE: 900
+      var:       TIP: int,   NUME: iz,   VALUE: 30
+      var:       TIP: bool,   NUME: b1,   VALUE: false
+      var:       TIP: bool,   NUME: b2,   VALUE: false
+      var:       TIP: float,   NUME: fx,   VALUE: 6.500000
+      var:       TIP: string,   NUME: s,   VALUE: "otherstr"
+      var:       TIP: char,   NUME: c,   VALUE: 'x'
+      array:     TIP: int,   NUME: v,   SIZE: 10,   VALORI: , 0, 0, 0, 0, 0, 0, 0, 0, 0, 100
+      CLASA:   Nume: A
+           var:       TIP: int,   NUME: x,   VALUE: 3004
+           var:       TIP: int,   NUME: y,   VALUE: 200
+                FUNCTIE:   Return Type: int   Nume: g
+                     parametru var:    TIP: int,   NUME: z
+                          IF:
+                                    WHILE:
+
+
+
+                FUNCTIE:   Return Type: int   Nume: f
+                     parametru var:    TIP: int,   NUME: z
+                          IF:
+
+
+
+      FUNCTIE:   Return Type: int   Nume: f
+           parametru var:    TIP: int,   NUME: z
+           var:       TIP: int,   NUME: x,   VALUE: 5
+           var:       TIP: int,   NUME: y,   VALUE: 1000
+                IF:
+                     var:       TIP: int,   NUME: xt,   VALUE: 100
+                     var:       TIP: bool,   NUME: flag,   VALUE: false
+                          WHILE:
+                               var:       TIP: int,   NUME: xm,   VALUE: 8
+
+
+
+      FUNCTIE:   Return Type: int   Nume: bfunc
+           parametru var:    TIP: bool,   NUME: b
+           parametru var:    TIP: string,   NUME: s
+                IF:
+
+                ELSE:
+
+
+      MAIN:   Nume: Main_Program
+
